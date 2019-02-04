@@ -7,7 +7,6 @@ public class SISMainMethod
 			{
 				System.out.println("Hello World.");
 				
-				
 			}
 
 	}
