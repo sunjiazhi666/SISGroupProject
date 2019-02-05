@@ -21,7 +21,7 @@ public class DataBase
 				System.out.println(students.size());
 				double totalPoints = 0;
 				
-				
+				//
 				for(int i = 0; i < students.size(); i++){
 					
 						if(students.get(i).getOneGrade().equals("A+")){
