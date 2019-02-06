@@ -1,10 +1,18 @@
+
+import java.io.IOException;
+
 import java.util.Scanner;
+
 
 public class SISMainMethod
 	{
 
+
+		public static void main(String[] args) throws IOException
+
 		static boolean run = true;
 		public static void main(String[] args)
+
 			{
 				Scanner userInput = new Scanner(System.in);
 				
