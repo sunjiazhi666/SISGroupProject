@@ -8,12 +8,13 @@ public class SISMainMethod
 	{
 
 
-		public static void main(String[] args) throws IOException
+		
 
 		static boolean run = true;
-		public static void main(String[] args)
+		public static void main(String[] args) throws IOException
 
 			{
+				DataBase.fillArray();
 				Scanner userInput = new Scanner(System.in);
 				
 				System.out.println("Welcome to Blake, Danny, and Kenny's Student Information System.");
@@ -24,6 +25,10 @@ public class SISMainMethod
 				System.out.println("(1) Add or Delete a Student.");
 				System.out.println("(2) Change Student Grades or Schedule.");
 				System.out.println("(3) Sort Students");
+				
+				
+				
+				
 				int userChoice = userInput.nextInt();
 				
 				if(userChoice == 1)
