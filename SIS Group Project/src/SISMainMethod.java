@@ -8,12 +8,13 @@ public class SISMainMethod
 	{
 
 
-		public static void main(String[] args) throws IOException
+		
 
 		static boolean run = true;
-		public static void main(String[] args)
+		public static void main(String[] args) throws IOException
 
 			{
+				
 				Scanner userInput = new Scanner(System.in);
 				
 				System.out.println("Welcome to Blake, Danny, and Kenny's Student Information System.");
