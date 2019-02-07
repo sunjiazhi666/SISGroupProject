@@ -38,12 +38,6 @@ public class DataBase
 					
 				}
 				
-				
-				
-				for(int i = 0; i < students.size(); i++){
-					System.out.println(students.get(i).getFirstName()+students.get(i).getLastName()+students.get(i).getOne()+students.get(i).getOneGrade()+students.get(i).getTwo()+students.get(i).getTwoGrade()+students.get(i).getThree()+students.get(i).getThreeGrade()+students.get(i).getGpa());
-				}
-				
 			}
 
 	public static double convertGPA()
