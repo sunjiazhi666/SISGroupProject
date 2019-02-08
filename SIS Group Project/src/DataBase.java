@@ -38,10 +38,6 @@ public class DataBase
 					
 				}
 				
-				
-				
-				
-				
 			}
 
 	public static double convertGPA()
@@ -121,5 +117,4 @@ public class DataBase
 				
 			}
 			
-		
 	}

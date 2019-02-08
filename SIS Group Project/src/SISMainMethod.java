@@ -1,15 +1,10 @@
 
 
 import java.io.IOException;
-
 import java.util.Scanner;
-
 
 public class SISMainMethod
 	{
-
-
-		
 
 		static boolean run = true;
 		public static void main(String[] args) throws IOException
@@ -17,8 +12,6 @@ public class SISMainMethod
 			{
 
 				DataBase.fillArray();
-
-				
 
 				Scanner userInput = new Scanner(System.in);
 				
@@ -30,11 +23,6 @@ public class SISMainMethod
 				System.out.println("(1) Add or Delete a Student.");
 				System.out.println("(2) Change Student Grades or Schedule.");
 				System.out.println("(3) Sort Students");
-
-				
-				
-				
-				
 
 				int userChoice = userInput.nextInt();
 				
