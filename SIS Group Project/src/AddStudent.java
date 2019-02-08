@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class AddStudent
 	{
@@ -112,7 +113,12 @@ public class AddStudent
 						break;
 					}
 					}
-				newGPA = total/3;	
+					newGPA = total/3;	
+					newGPA = newGPA*10;
+					newGPA = Math.round(newGPA);
+					newGPA = newGPA /10;
+					
+					
 					
 				}
 
