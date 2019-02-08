@@ -9,12 +9,12 @@ public class SISMainMethod
 
 
 		
-
+//
 		static boolean run = true;
 		public static void main(String[] args) throws IOException
 
 			{
-				
+				DataBase.fillArray();
 				Scanner userInput = new Scanner(System.in);
 				
 				System.out.println("Welcome to Blake, Danny, and Kenny's Student Information System.");
