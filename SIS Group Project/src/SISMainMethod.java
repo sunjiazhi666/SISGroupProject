@@ -76,15 +76,15 @@ public class SISMainMethod
 						
 						if(userChoice3 == 1)
 							{
-								SortByGPA.gpaSort();
+								SortGPA.sortgpa();
 							}
 						if(userChoice3 == 2)
 							{
-								SortByLastName.lastNameSort();
+								SortLN.sortln();
 							}
 						if(userChoice3 == 3)
 							{
-								SortByPeriod.periodSort();
+								SortP.periodSort();
 							}
 					}
 				
