@@ -15,7 +15,7 @@ public class DeleteStudent
 				DataBase.students.remove(userChoice - 1);
 				
 				Roster.roster();
-				System.out.println("Your'e welcome");
+				
 				
 				
 				
